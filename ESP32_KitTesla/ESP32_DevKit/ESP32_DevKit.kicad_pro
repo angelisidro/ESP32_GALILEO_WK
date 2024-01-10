@@ -35,8 +35,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 0.55,
-          "width": 1.7
+          "height": 1.0,
+          "width": 0.9
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -55,7 +55,21 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "hole_clearance|187470000|97720000|211b2ba9-a992-4206-a06f-0761f47506ec|a164e527-621f-404f-81a4-0b49e0ca48ef",
+        "hole_clearance|187770000|97720000|211b2ba9-a992-4206-a06f-0761f47506ec|aa710a58-264f-4e20-9cfc-f694e2c8bf81",
+        "hole_clearance|187970000|97720000|211b2ba9-a992-4206-a06f-0761f47506ec|bc71b0bb-d98f-451c-9029-7c5318558468",
+        "hole_clearance|193370000|97720000|a757e770-f9e8-43a0-a7c5-c469fa99f9b8|4af68896-3727-48cb-a9b1-2d7447567e6d",
+        "hole_clearance|193570000|97720000|6d6fe362-e735-4175-aff0-504b6de8a9d7|4af68896-3727-48cb-a9b1-2d7447567e6d",
+        "hole_clearance|193870000|97720000|9c3f5078-e301-41bb-a4f8-302d4981d6d6|4af68896-3727-48cb-a9b1-2d7447567e6d",
+        "unconnected_items|177800000|88620000|9ba91114-3713-4ead-a2d8-bb8b3c28bffd|ab94acb4-5125-4a2c-9a73-fe93d8af9a18",
+        "unconnected_items|177800000|91160000|ab94acb4-5125-4a2c-9a73-fe93d8af9a18|fad74a8f-d52e-4536-b75f-5e0fc9de262a",
+        "unconnected_items|177800000|93700000|fad74a8f-d52e-4536-b75f-5e0fc9de262a|0589a49b-7ff2-4de3-a50f-9f8f3374e169",
+        "unconnected_items|203200000|78460000|71eccafc-8c8e-4913-9ee8-c3bc27631e4c|31f285cb-e24b-4827-9970-39fee7b9c7ad",
+        "unconnected_items|203200000|91160000|ed70de86-46da-4138-9efc-26c948373316|71eccafc-8c8e-4913-9ee8-c3bc27631e4c",
+        "unconnected_items|203200000|93700000|0589a49b-7ff2-4de3-a50f-9f8f3374e169|ed70de86-46da-4138-9efc-26c948373316",
+        "unconnected_items|203200000|96240000|d1f104cd-c5cd-436c-984c-21687cce8c1f|0589a49b-7ff2-4de3-a50f-9f8f3374e169"
+      ],
       "meta": {
         "version": 2
       },
@@ -122,9 +136,9 @@
         "min_silk_clearance": 0.0,
         "min_text_height": 0.7999999999999999,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.06,
         "min_track_width": 0.127,
-        "min_via_annular_width": 0.19999999999999998,
+        "min_via_annular_width": 0.065,
         "min_via_diameter": 0.5,
         "solder_mask_clearance": 0.0,
         "solder_mask_min_width": 0.0,

@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "801ffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "ESP32_DevKit.kicad_prl",
+    "filename": "Shield_1A.kicad_prl",
     "version": 3
   },
   "project": {
