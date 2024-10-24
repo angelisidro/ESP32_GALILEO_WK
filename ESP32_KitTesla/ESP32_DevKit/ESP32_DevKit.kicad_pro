@@ -463,7 +463,7 @@
       "idf": "",
       "netlist": "ESP32_DevKit.net",
       "specctra_dsn": "",
-      "step": "",
+      "step": "ESP32_DevKit.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
